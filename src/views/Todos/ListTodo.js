@@ -68,13 +68,14 @@ class ListTodo extends React.Component {
         })
     }
 
+
     render() {
         let { listTodos, editTodo } = this.state;
         let isEmptyObj = Object.keys(editTodo).length === 0;
         return (
             <>
                 <p>
-                    Simple TODO Apps with React.js (Eric &amp; Hoi Dan IT)
+                    TODO Apps
                 </p>
                 <div className="list-todo-container">
                     <AddTodo
